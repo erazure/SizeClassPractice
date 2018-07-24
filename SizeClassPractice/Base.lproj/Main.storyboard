@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SizeClassPracticce" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="All Sizes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gl4-ml-dWn">
+                                <rect key="frame" x="175" y="357.66666666666669" width="64" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="compact height" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZZi-Dp-O7C">
+                                <rect key="frame" x="147" y="316.66666666666669" width="120" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="regular height" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MDf-rK-Xhp">
+                                <rect key="frame" x="458.5" y="713.5" width="107" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="gl4-ml-dWn" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="0Je-z4-Rcm"/>
+                            <constraint firstItem="MDf-rK-Xhp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4UD-16-qfr"/>
+                            <constraint firstItem="ZZi-Dp-O7C" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="N0B-Ck-brU"/>
+                            <constraint firstItem="gl4-ml-dWn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="RIl-7E-wOc"/>
+                            <constraint firstItem="MDf-rK-Xhp" firstAttribute="top" secondItem="gl4-ml-dWn" secondAttribute="bottom" constant="20" id="Uah-n4-jur"/>
+                            <constraint firstItem="gl4-ml-dWn" firstAttribute="top" secondItem="ZZi-Dp-O7C" secondAttribute="bottom" constant="20" id="sD4-E3-QZb"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="ZZi-Dp-O7C"/>
+                                <exclude reference="MDf-rK-Xhp"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="N0B-Ck-brU"/>
+                                <exclude reference="sD4-E3-QZb"/>
+                                <exclude reference="4UD-16-qfr"/>
+                                <exclude reference="Uah-n4-jur"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular">
+                            <mask key="subviews">
+                                <include reference="ZZi-Dp-O7C"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="N0B-Ck-brU"/>
+                                <include reference="sD4-E3-QZb"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=regular">
+                            <mask key="subviews">
+                                <include reference="MDf-rK-Xhp"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="4UD-16-qfr"/>
+                                <include reference="Uah-n4-jur"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		031F1380210785AB00A00056 /* SizeClassPracticce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SizeClassPracticce.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		031F1380210785AB00A00056 /* SizeClassPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SizeClassPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		031F1383210785AB00A00056 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		031F1385210785AB00A00056 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		031F1388210785AB00A00056 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -38,7 +38,7 @@
 		031F1377210785AB00A00056 = {
 			isa = PBXGroup;
 			children = (
-				031F1382210785AB00A00056 /* SizeClassPracticce */,
+				031F1382210785AB00A00056 /* SizeClassPractice */,
 				031F1381210785AB00A00056 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,12 +46,12 @@
 		031F1381210785AB00A00056 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				031F1380210785AB00A00056 /* SizeClassPracticce.app */,
+				031F1380210785AB00A00056 /* SizeClassPractice.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		031F1382210785AB00A00056 /* SizeClassPracticce */ = {
+		031F1382210785AB00A00056 /* SizeClassPractice */ = {
 			isa = PBXGroup;
 			children = (
 				031F1383210785AB00A00056 /* AppDelegate.swift */,
@@ -61,15 +61,15 @@
 				031F138C210785B000A00056 /* LaunchScreen.storyboard */,
 				031F138F210785B000A00056 /* Info.plist */,
 			);
-			path = SizeClassPracticce;
+			path = SizeClassPractice;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		031F137F210785AB00A00056 /* SizeClassPracticce */ = {
+		031F137F210785AB00A00056 /* SizeClassPractice */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 031F1392210785B000A00056 /* Build configuration list for PBXNativeTarget "SizeClassPracticce" */;
+			buildConfigurationList = 031F1392210785B000A00056 /* Build configuration list for PBXNativeTarget "SizeClassPractice" */;
 			buildPhases = (
 				031F137C210785AB00A00056 /* Sources */,
 				031F137D210785AB00A00056 /* Frameworks */,
@@ -79,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = SizeClassPracticce;
+			name = SizeClassPractice;
 			productName = SizeClassPracticce;
-			productReference = 031F1380210785AB00A00056 /* SizeClassPracticce.app */;
+			productReference = 031F1380210785AB00A00056 /* SizeClassPractice.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +99,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 031F137B210785AB00A00056 /* Build configuration list for PBXProject "SizeClassPracticce" */;
+			buildConfigurationList = 031F137B210785AB00A00056 /* Build configuration list for PBXProject "SizeClassPractice" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +112,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				031F137F210785AB00A00056 /* SizeClassPracticce */,
+				031F137F210785AB00A00056 /* SizeClassPractice */,
 			);
 		};
 /* End PBXProject section */
@@ -286,7 +286,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = erazure.SizeClassPracticce;
+				PRODUCT_BUNDLE_IDENTIFIER = erazure.SizeClassPractice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -303,7 +303,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = erazure.SizeClassPracticce;
+				PRODUCT_BUNDLE_IDENTIFIER = erazure.SizeClassPractice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -313,7 +313,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		031F137B210785AB00A00056 /* Build configuration list for PBXProject "SizeClassPracticce" */ = {
+		031F137B210785AB00A00056 /* Build configuration list for PBXProject "SizeClassPractice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				031F1390210785B000A00056 /* Debug */,
@@ -322,7 +322,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		031F1392210785B000A00056 /* Build configuration list for PBXNativeTarget "SizeClassPracticce" */ = {
+		031F1392210785B000A00056 /* Build configuration list for PBXNativeTarget "SizeClassPractice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				031F1393210785B000A00056 /* Debug */,
